@@ -1,0 +1,14 @@
+//
+//  Config.WinterSDK.debug.xcconfig
+//  WinterSDK
+//
+//  Created by zhoufei on 2022/11/13.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+MACH_O_TYPE=staticlib
+//自定义产物导出目录
+CONFIGURATION_BUILD_DIR=$(SRCROOT)/../Output

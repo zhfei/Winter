@@ -1,0 +1,6 @@
+framework module WinterSDK {
+  umbrella header "WinterSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570D41AAD61299D15AA86516 /* Pods_Winter_WinterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10578C6CE3C2B66ED6EAB387 /* Pods_Winter_WinterUITests.framework */; };
+		81A7FBA60B292BBBA278240C /* Pods_WinterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD01A8AC9B2F0F0ACF6F937 /* Pods_WinterTests.framework */; };
 		91DDC0902920FBBA0080B895 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DDC08F2920FBBA0080B895 /* AppDelegate.m */; };
 		91DDC0932920FBBA0080B895 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DDC0922920FBBA0080B895 /* SceneDelegate.m */; };
 		91DDC0962920FBBA0080B895 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DDC0952920FBBA0080B895 /* ViewController.m */; };
@@ -17,6 +19,9 @@
 		91DDC0AB2920FBBC0080B895 /* WinterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DDC0AA2920FBBC0080B895 /* WinterTests.m */; };
 		91DDC0B52920FBBC0080B895 /* WinterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DDC0B42920FBBC0080B895 /* WinterUITests.m */; };
 		91DDC0B72920FBBC0080B895 /* WinterUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DDC0B62920FBBC0080B895 /* WinterUITestsLaunchTests.m */; };
+		91DDC0DF292125290080B895 /* WinterSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DDC0DB2920FD5E0080B895 /* WinterSDK.framework */; };
+		91DDC0E0292125290080B895 /* WinterSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91DDC0DB2920FD5E0080B895 /* WinterSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE8E93A61A4D1E9D5D9BD48C /* Pods_Winter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAB6E99BD0F21484907FAE2 /* Pods_Winter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		91DDC0E1292125290080B895 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				91DDC0E0292125290080B895 /* WinterSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		065926305A6E71B593305F08 /* Pods-Winter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Winter.debug.xcconfig"; path = "Target Support Files/Pods-Winter/Pods-Winter.debug.xcconfig"; sourceTree = "<group>"; };
+		10578C6CE3C2B66ED6EAB387 /* Pods_Winter_WinterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Winter_WinterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		162849EF69C5DC8C77C7D7EE /* Pods-WinterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinterTests.debug.xcconfig"; path = "Target Support Files/Pods-WinterTests/Pods-WinterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AD01A8AC9B2F0F0ACF6F937 /* Pods_WinterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4157770C333101CE1B5320CF /* Pods-Winter-WinterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Winter-WinterUITests.release.xcconfig"; path = "Target Support Files/Pods-Winter-WinterUITests/Pods-Winter-WinterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E37B62260B91CE6800EA81E /* Pods-Winter-WinterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Winter-WinterUITests.debug.xcconfig"; path = "Target Support Files/Pods-Winter-WinterUITests/Pods-Winter-WinterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A5206432E0557CD1E376B9B /* Pods-WinterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinterTests.release.xcconfig"; path = "Target Support Files/Pods-WinterTests/Pods-WinterTests.release.xcconfig"; sourceTree = "<group>"; };
 		91DDC08B2920FBBA0080B895 /* Winter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Winter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DDC08E2920FBBA0080B895 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91DDC08F2920FBBA0080B895 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +80,9 @@
 		91DDC0B02920FBBC0080B895 /* WinterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DDC0B42920FBBC0080B895 /* WinterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WinterUITests.m; sourceTree = "<group>"; };
 		91DDC0B62920FBBC0080B895 /* WinterUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WinterUITestsLaunchTests.m; sourceTree = "<group>"; };
+		91DDC0DB2920FD5E0080B895 /* WinterSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WinterSDK.framework; path = Output/WinterSDK.framework; sourceTree = "<group>"; };
+		EEAB6E99BD0F21484907FAE2 /* Pods_Winter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Winter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA19D50CE07400946C0B6409 /* Pods-Winter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Winter.release.xcconfig"; path = "Target Support Files/Pods-Winter/Pods-Winter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91DDC0DF292125290080B895 /* WinterSDK.framework in Frameworks */,
+				CE8E93A61A4D1E9D5D9BD48C /* Pods_Winter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A7FBA60B292BBBA278240C /* Pods_WinterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +107,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570D41AAD61299D15AA86516 /* Pods_Winter_WinterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33BA64B1D92D323C0DCF4CCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91DDC0DB2920FD5E0080B895 /* WinterSDK.framework */,
+				EEAB6E99BD0F21484907FAE2 /* Pods_Winter.framework */,
+				10578C6CE3C2B66ED6EAB387 /* Pods_Winter_WinterUITests.framework */,
+				1AD01A8AC9B2F0F0ACF6F937 /* Pods_WinterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		91DDC0822920FBBA0080B895 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +132,8 @@
 				91DDC0A92920FBBC0080B895 /* WinterTests */,
 				91DDC0B32920FBBC0080B895 /* WinterUITests */,
 				91DDC08C2920FBBA0080B895 /* Products */,
+				BEAD069BC94A6D50C70D39F7 /* Pods */,
+				33BA64B1D92D323C0DCF4CCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +182,19 @@
 			path = WinterUITests;
 			sourceTree = "<group>";
 		};
+		BEAD069BC94A6D50C70D39F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				065926305A6E71B593305F08 /* Pods-Winter.debug.xcconfig */,
+				FA19D50CE07400946C0B6409 /* Pods-Winter.release.xcconfig */,
+				5E37B62260B91CE6800EA81E /* Pods-Winter-WinterUITests.debug.xcconfig */,
+				4157770C333101CE1B5320CF /* Pods-Winter-WinterUITests.release.xcconfig */,
+				162849EF69C5DC8C77C7D7EE /* Pods-WinterTests.debug.xcconfig */,
+				7A5206432E0557CD1E376B9B /* Pods-WinterTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91DDC0BA2920FBBC0080B895 /* Build configuration list for PBXNativeTarget "Winter" */;
 			buildPhases = (
+				08F203D228AA79C12D5098B4 /* [CP] Check Pods Manifest.lock */,
 				91DDC0872920FBBA0080B895 /* Sources */,
 				91DDC0882920FBBA0080B895 /* Frameworks */,
 				91DDC0892920FBBA0080B895 /* Resources */,
+				91DDC0E1292125290080B895 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91DDC0BD2920FBBC0080B895 /* Build configuration list for PBXNativeTarget "WinterTests" */;
 			buildPhases = (
+				4C584ABA8A33095EFC51460C /* [CP] Check Pods Manifest.lock */,
 				91DDC0A22920FBBC0080B895 /* Sources */,
 				91DDC0A32920FBBC0080B895 /* Frameworks */,
 				91DDC0A42920FBBC0080B895 /* Resources */,
@@ -178,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91DDC0C02920FBBC0080B895 /* Build configuration list for PBXNativeTarget "WinterUITests" */;
 			buildPhases = (
+				5108042A8B481029903EF018 /* [CP] Check Pods Manifest.lock */,
 				91DDC0AC2920FBBC0080B895 /* Sources */,
 				91DDC0AD2920FBBC0080B895 /* Frameworks */,
 				91DDC0AE2920FBBC0080B895 /* Resources */,
@@ -260,6 +323,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08F203D228AA79C12D5098B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Winter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C584ABA8A33095EFC51460C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WinterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5108042A8B481029903EF018 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Winter-WinterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		91DDC0872920FBBA0080B895 /* Sources */ = {
@@ -439,11 +571,16 @@
 		};
 		91DDC0BB2920FBBC0080B895 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 065926305A6E71B593305F08 /* Pods-Winter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Output",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Winter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -465,11 +602,16 @@
 		};
 		91DDC0BC2920FBBC0080B895 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA19D50CE07400946C0B6409 /* Pods-Winter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Output",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Winter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -491,6 +633,7 @@
 		};
 		91DDC0BE2920FBBC0080B895 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162849EF69C5DC8C77C7D7EE /* Pods-WinterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +651,7 @@
 		};
 		91DDC0BF2920FBBC0080B895 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5206432E0557CD1E376B9B /* Pods-WinterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +669,7 @@
 		};
 		91DDC0C12920FBBC0080B895 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E37B62260B91CE6800EA81E /* Pods-Winter-WinterUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -540,6 +685,7 @@
 		};
 		91DDC0C22920FBBC0080B895 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4157770C333101CE1B5320CF /* Pods-Winter-WinterUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
